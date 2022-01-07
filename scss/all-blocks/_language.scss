@@ -1,0 +1,58 @@
+.languages {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.languages__list {
+    margin-right: 5px;
+
+    &--active {
+        .language {
+            display: block;
+        }
+    }
+}
+
+.language {
+    position: absolute;
+    display: none;
+
+    &:nth-child(1) {
+        transform: translateY(105%);
+    }
+
+    &:nth-child(2) {
+        transform: translateY(5%);
+    }
+
+    &--active {
+        position: relative;
+        display: block;
+
+        &:nth-child(1) {
+            transform: unset;
+        }
+
+        &:nth-child(2) {
+            transform: unset;
+        }
+    }
+}
+
+.language__image {
+    border-radius: 2px;
+}
+
+.language__button {
+    width: 8px;
+    height: 5px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-image: url("../images/marker/marker-black.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

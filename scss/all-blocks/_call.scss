@@ -1,0 +1,52 @@
+.call {
+    display: flex;
+    align-items: center;
+}
+
+.call__left{
+    margin-right: 27px;
+}
+
+.call__left__number {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    color: $color1;
+    text-decoration: none;
+}
+
+.call__left__text {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-align: right;
+}
+
+.call__right__button {
+    width: 160px;
+    margin-bottom: 7px;
+    padding: 15px;
+}
+
+.call__right__text {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+}
+
+.call__number--mobile{
+    width: 30px;
+    height: 30px;
+    border: 1.1px solid $color5;
+    border-radius: 2px;
+    background-image: url('../images/call/Phone.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px;
+}

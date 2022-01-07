@@ -1,0 +1,17 @@
+.button {
+    display: block;
+    width: 280px;
+    padding: 25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: $color3;
+    background: $gradient-color;
+    box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
